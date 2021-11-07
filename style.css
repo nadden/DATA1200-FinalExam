@@ -42,6 +42,8 @@ nav{
     width: 100%;
 }
 
+/*------------mid----*/
+
 .product{
     width: 80%;
     margin: auto;
@@ -49,13 +51,25 @@ nav{
     padding-bottom: 50px;
     display: flex;
 }
+.product-info{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
 .product-info img{
     width: 100%;
+    position: relative;
 }
 
 .product-info h1{
     color: purple;
+    padding-top: 40px;
 }
+.product-info p{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
 .btn{
     display: inline-block;
     text-decoration: none;
@@ -73,3 +87,28 @@ nav{
     color: white;
 }
 
+/*------------footer-----*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background: rgb(71, 71, 71);
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.icons .fa{
+    color: white;
+    margin: 0 13px;
+    cursor: pointer
+    padding 18px 0;
+}
+.fa-heart-o{
+    color: white;
+}
