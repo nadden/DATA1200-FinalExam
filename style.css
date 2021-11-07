@@ -118,5 +118,18 @@ nav{
 .fa-heart-o{
     color: white;
 }
+@media(max-width: 700px){
+    nav{
+        display: block;
+        align-items: center;
+    }
+    .product{
+        display: block;
+    }
+    
+    .button a{
+        padding: 12px 15px;
 
+    }
+}
 
