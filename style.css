@@ -66,6 +66,7 @@ nav{
     color: rgb(240, 204, 0);
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 45px;
 }
 .welcome-info p{
     padding: 10px 0px
@@ -93,6 +94,50 @@ nav{
     transition: 0.5s;
     color: white;
 }
+
+/*-----------welcome----*/
+.campus{
+    margin: 80px;
+}
+.campus h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+}
+.campus h3{
+    font-size: 28px;
+    color: rgb(240, 204, 0);
+}
+.campus p{
+    font-size: 20px;
+    text-align: center;
+    margin: 5%;
+    margin-top: 0;
+}
+.campus-col{
+    margin: 5%;
+    padding: 20px 12px;
+    columns: 2;
+    text-align: center;
+}
+.campus-col img{
+    width: 100%;
+    background: transparent;
+}
+.campus-col img:hover{
+    background: rgb(240, 204, 0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 /*------------footer-----*/
 .footer{
