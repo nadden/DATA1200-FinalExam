@@ -6,7 +6,7 @@
 nav{
     justify-content: space-between;
     align-items: center;
-    background-color: purple;
+    background-color: rgb(240, 204, 0);
     display: flex;
     padding: 5px 10%;
 }
@@ -62,7 +62,7 @@ nav{
 }
 
 .product-info h1{
-    color: purple;
+    color: rgb(240, 204, 0);
     padding-top: 10%;
     padding-bottom: 20px;
 }
@@ -76,8 +76,8 @@ nav{
 .button a{
     display: inline-block;
     text-decoration: none;
-    color: purple;
-    border: 1px solid purple;
+    color: rgb(240, 204, 0);
+    border: 1px solid rgb(240, 204, 0);
     padding: 12px 30px;
     background: transparent;
     position: relative;
@@ -87,8 +87,8 @@ nav{
 
 }
 .button a:hover{
-    border: 1px solid purple;
-    background: purple;
+    border: 1px solid rgb(240, 204, 0);
+    background: rgb(240, 204, 0);
     transition: 0.5s;
     color: white;
 }
@@ -178,7 +178,7 @@ nav .fa{
 
 /*-----------about us--------*/
 .about h1{
-    color: purple;
+    color: rgb(240, 204, 0);
     font-size: 50px;
 }
 .intro{
@@ -188,7 +188,7 @@ nav .fa{
 
 .about h3{
     padding-top: 20%;
-    color: purple;
+    color: rgb(240, 204, 0);
     font-size: 40px;
 
 }
