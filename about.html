@@ -14,7 +14,8 @@
 <body>
     <nav>
         <a href="index.html"><img src="./assets/logo.png" alt=""></a>
-        <div class="nav-links" id="navLinks">            
+        <div class="nav-links" id="navLinks"> 
+            <i class="fa fa-times" onclick="hideMenu()"></i>                  
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT US</a></li>
@@ -23,6 +24,7 @@
                 </ul>
             </div>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 
 <!-----------about us------->
@@ -36,21 +38,21 @@
     <div class="row">
         <div class="about-us-col">
             <img src="./assets/safty.jpg" alt="">
-            <h3>Seeking safety</h3>
+            <h3>SEEKING SAFTY</h3>
             <p>Traveling around with electric scooters should be safe for you and the people around you.<br> 
                 We believe our implementation of two flexible mirrors will help to increase the safty.
             </p>
         </div>
         <div class="about-us-col">
             <img src="./assets/co-workers.jpg" alt="">
-            <h3>Co-workers</h3>
+            <h3>CO-WORKERS</h3>
             <p>Traveling around with electric scooters should be safe for you and the people around you.<br> 
                 We believe our implementation of two flexible mirrors will help to increase the safty.
             </p>
         </div>
         <div class="about-us-col">
             <img src="./assets/el-scooter.png" alt="">
-            <h3>Sustainable Growth</h3>
+            <h3>SUSTAINABLE GROWTH</h3>
             <p>Traveling around with electric scooters should be safe for you and the people around you.<br> 
                 We believe our implementation of two flexible mirrors will help to increase the safty.
             </p>
@@ -68,6 +70,22 @@
         <i class="fa fa-instagram"></i>
         <i class="fa fa-twitter"></i>
     </div>
+
+
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
 
 
 </body>
