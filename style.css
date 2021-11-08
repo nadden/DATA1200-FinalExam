@@ -3,12 +3,15 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+
 nav{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(240, 204, 0);
     display: flex;
     padding: 5px 10%;
+    margin: 0;
 }
 
 .nav-links{
@@ -122,24 +125,17 @@ nav{
 }
 .campus-col img{
     width: 100%;
-    background: transparent;
 }
-.campus-col img:hover{
-    background: rgb(240, 204, 0);
-    transition: 0.5s;
-    cursor: pointer;
+.campus-col a{
+    text-decoration: none;
+    color: rgb(240, 204, 0);
 }
-
-
-
-
-
-
-
-
 
 
 /*------------footer-----*/
+
+
+
 .footer{
     width: 100%;
     text-align: center;
@@ -177,10 +173,8 @@ nav .fa{
         background-position: center;
         padding: 20px;
     }
-    .product{
-        display: block;
-        align-items: center;
-        text-align: center;
+    nav img{
+        display: none;
     }
     
     .button a{
@@ -214,10 +208,21 @@ nav .fa{
         padding: 30px;
 
     }
-    nav img{
-        display: none;
+    .welcome{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .welcome img{
+        padding-left: 0;
+    }
+    .campus{
+        margin: 0;
     }
     
+    .campus-col{
+        columns: 1;
+    }
     
     
 }
