@@ -133,3 +133,39 @@ nav{
     }
 }
 
+/*-----------about us--------*/
+.about h1{
+    color: purple;
+    font-size: 50px;
+}
+.intro{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.about h3{
+    padding-top: 20%;
+    color: purple;
+    font-size: 40px;
+
+}
+.about p{
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.about-us-col {
+    margin: 5%;
+    padding: 20px 12px;
+    columns: 2;
+    text-align: center;
+}
+.about-us-col img{
+    width: 100%;
+}
+@media(max-width: 700px){
+    .about-us-col{
+        columns: 1;
+    }
+}
+
