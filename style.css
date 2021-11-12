@@ -274,4 +274,50 @@ nav .fa{
 }
 
 /*-------technology-------*/
+.technology-society{
+    margin: 5%;
+}
+
+.technology{
+    margin: 5%;
+    columns: 2;
+    column-gap: 10%;
+}
+.technology h2{
+    margin: 0px 0px 5px 0;
+}
+.technology h3{
+    margin: 30px 0px 5px 0;
+}
+.technology img{
+    width: 100%;
+}
+.universal-design a{
+    color: royalblue;
+    font-weight: bold;
+
+}
+
+.universal-design ul li{
+    list-style: none;
+    border: 5px;
+    background: rgb(240, 204, 0);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 3%;
+}
+.universal-design ul li:hover{
+    box-shadow: 0 0 20px 0px grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.tech-sustainability a{
+    color: royalblue;
+    font-weight: bold;
+}
+@media(max-width: 700px){
+    .technology{
+        columns: 1;
+    }
+}
 

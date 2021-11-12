@@ -16,33 +16,113 @@
 <body>
     <nav>
         <a href="index.html"><img src="./assets/logo.png" alt=""></a>
-        <div class="nav-links" id="navLinks">            
+        <div class="nav-links" id="navLinks"> 
+            <i class="fa fa-times" onclick="hideMenu()"></i>            
                 <ul>
                     <li><a href="index.html">WELCOME</a></li>
                     <li><a href="blog.html">BLOG</a></li>
                     <li><a href="accessibility.html">ACCESSIBILITY</a></li>
-                    <li><a href="technology.html">TECHNOLOGY</a></li>
+                    <li><a href="technology.html">TECHNOLOGY & SOCIETY</a></li>
                     <li><a href="fun.html">FUN</a></li>
                 </ul>
             </div>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 
 
 <!--------technology----------->
-<section class="technology">
+
     <div class="technology-society">
         <h1>TECHNOLOGY AND SOCIETY</h1>
         <p>We are living in a time when rapid technological developments are causing profound changes at all levels of 
             society. Each and every profession is affected in some significant way, and because of this, 
-            the labour market’s demand for digital competence is increasing. 
-            <br><br> 
+            the labour market’s demand for digital competence is increasing.  
             On this page you will get a general understanding of some of the most influential tools and technologies of today.
             I will look deeper into Universal Design and Technology and Sustainability (Kilde, 0.1 What is "Technology and Society"?</p>
     </div>
 
+<div class="technology">
+    <div class="universal-design">
+        <h2>UNIVERSAL DESIGN</h2>
+        <p><a href="https://bufdir.no/uu/?utm_campaign=tema-domener&utm_medium=redirect&utm_source=deltanettet.no&utm_content=deltanettet.no">Universal Desing</a> 
+            is the design of products and environments in such a way that they can be used by all people, 
+            without the need for adaptation and a special design. Universal design is a strategy for planning and designing 
+            products and environments to achieve an inclusive society and with full equality and participation for all. </p>
+        <img src="./assets/co-workers.jpg" alt="">
+        
+        <h3>Universal Design for Elderly</h3>
+        
+        <p>It is especially important with <a href="https://www.sciencedirect.com/science/article/pii/S1877050915030951">universal design for the elderly</a>, 
+            as several medical conditions can occur as you get 
+            older. This can be impaired vision, hearing and mobility, loss of strength and endurance. 
+            These are factors that can have an impact on one’s ability to perform everyday activities. 
+            It is therefore important to take this into consideration when developing new products and websites. 
+            <br><br>
+            <img src="./assets/co-workers.jpg" alt="">
+            When we look at the <a href="https://www.sciencedirect.com/science/article/pii/S1877050915030951?via%3Dihub">basic principles</a>, behind universal design, it clarifies the useful function it can have, 
+            especially for the elderly. <br>Below we have presented seven points that can be useful when working with universal 
+            design. </p><br>
 
-</section>
+        <ul>
+            <li><strong>1. Simple design that does not require prior knowledge</li>
+            <li>2. Easy navigation on websites and products.</li>
+            <li>3. Function on websites that facilitate impaired vision and hearing</li>
+            <li>4. Easy-to-use manuals using better illustrations and less text</li>
+            <li>5. Design with tolerance for errors from the user </li>
+            <li>6. Space-efficient appliances that can be placed at home</li>
+            <li>7. Advantage of design that require less physical effort as it allows for flexibility</strong></li>
+        </ul>
+
+    </div>
+
+    <div class="tech-sustainability">
+        <h2>TECHNOLOGY AND SUSTAINABILITY</h2>
+        <p><a href="https://www.smartinnovationnorway.com/nyheter/hva-er-innovasjon-og-hvordan-innoverer-man/">Technological innovations</a> have made great changes in our society, both for better and worse. 
+        There is no doubt that electronic devices make both learning and knowledge easier and lighter, 
+        but it has its drawbacks that is has a climate cost. </p>
+
+        <h3>Electronic waste</h3>
+        <p>Norway is at the top of Europe for <a href="https://en.wikipedia.org/wiki/Electronic_waste">electronic waste</a>, with <a href="https://www.framtiden.no/202008247613/aktuelt/forbruk/enorme-utslipp-fra-elektronikk.html">28.5 kilos of waste per person</a> per year. 
+        In 2018, 1.45 billion mobile phones were sold, and the number for electronic devices continue to rise. 
+        This is a big challenge, as it is the <a href="https://www.framtiden.no/201909177473/aktuelt/den-skjulte-kostnaden-av-telefonen-din.html">people and the environment</a>who pay the high price of the consequences. 
+        <br><br>
+
+        The waste from electronics and material consume is <a href="https://www.abcnyheter.no/helse-og-livsstil/livet/2020/01/18/195642037/nordmenn-i-verdenstoppen-for-bruk-og-kast-ikke-baerekraftig">not sustainable</a>. 
+        The big problem is that the waste from electronics is not recycled well enough. 
+        There is a lot that is thrown away, which makes this process far from sustainable. This has led to increased knowledge of the term <a href="https://gronnehint.no/2019/10/11/hvordan-kan-minimalistisk-livsstil-vaere-godt-for-sinnet-kloden-og-klimaet/">minimalist</a> 
+        and the lifestyles that comes with it, who believes it creates sustainability. </p>
+    </div>
+</div>
+
+<div class="button">
+    <a href="technology.html" class="btn">TO THE TOP</a>
+</div>
+
+<!-----------------------fooooter----------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium enim mollitia tenetur, adipisci, <br>perspiciatis sequi reiciendis, harum iste error quaerat eveniet cupiditate facere aperiam ullam quo. Esse velit vel suscipit.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+
+
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
 
 </body>
 
