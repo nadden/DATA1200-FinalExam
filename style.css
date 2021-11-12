@@ -228,38 +228,46 @@ nav .fa{
 }
 
 /*-----------about us--------*/
-.about h1{
-    color: rgb(240, 204, 0);
-    font-size: 50px;
-}
+
 .intro{
     text-align: center;
     padding-top: 5%;
+    margin: 5%;
+    margin-top: 0%;
+}
+.blog h1{
+    color: rgb(240, 204, 0);
+    font-size: 50px;
 }
 
-.about h3{
+.blog h2{
     padding-top: 20%;
     color: rgb(240, 204, 0);
     font-size: 40px;
 
 }
-.about p{
+.blog p{
     font-size: 20px;
     line-height: 2rem;
     padding-top: 0%;
 }
 
-.about-us-col {
+
+.blog-col {
     margin: 5%;
     padding: 20px 12px;
     columns: 2;
     text-align: center;
 }
-.about-us-col img{
+.blog-col img{
     width: 100%;
 }
+
+
+
+
 @media(max-width: 700px){
-    .about-us-col{
+    .blog-col{
         columns: 1;
     }
 }
