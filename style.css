@@ -52,11 +52,13 @@ nav{
     margin: auto;
     padding-top: 80px;
     padding-bottom: 50px;
-    display: flex;
 }
 .welcome-info{
-    flex-basis: 48%;
-    padding: 30px 2px;
+    margin: 5%;
+    margin-bottom: 0%;
+    padding: 20px 12px;
+    columns: 2;
+    text-align: left;
 }
 
 .welcome-info img{
@@ -74,9 +76,7 @@ nav{
 .welcome-info p{
     padding: 10px 0px
 }
-.button{
-    padding-top: 30px;
-}
+
 
 .button a{
     display: inline-block;
@@ -177,8 +177,9 @@ nav .fa{
         display: none;
     }
     
-    .button a{
+    .button{
         padding: 12px 15px;
+        text-align: center;
 
     }
     .nav-links ul li{
@@ -208,10 +209,10 @@ nav .fa{
         padding: 30px;
 
     }
-    .welcome{
-        display: block;
+    .welcome-info{
         align-items: center;
         text-align: center;
+        columns: 1;
     }
     .welcome img{
         padding-left: 0;
@@ -227,7 +228,7 @@ nav .fa{
     
 }
 
-/*-----------about us--------*/
+/*-----------blog--------*/
 
 .intro{
     text-align: center;
@@ -241,7 +242,6 @@ nav .fa{
 }
 
 .blog h2{
-    padding-top: 20%;
     color: rgb(240, 204, 0);
     font-size: 40px;
 
@@ -257,17 +257,21 @@ nav .fa{
     margin: 5%;
     padding: 20px 12px;
     columns: 2;
-    text-align: center;
+    text-align: left;
 }
 .blog-col img{
     width: 100%;
 }
+.button{
+    margin: 0% 0% 2% 5%;
 
-
-
+}
 
 @media(max-width: 700px){
     .blog-col{
         columns: 1;
     }
 }
+
+/*-------technology-------*/
+
