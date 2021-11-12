@@ -13,7 +13,7 @@
 
 <body>
 
-    <section class="art-header">
+    <section class="art">
 <nav>
     <a href="index.html"><img src="./assets/logo.png" alt=""></a>
     <div class="nav-links" id="navLinks">   
@@ -31,14 +31,79 @@
 </nav>
 
 <div class="art-work">
+    <img src="./assets/logo2.png" alt="">
     <h1>Kommer</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur repudiandae fuga, quae est voluptatum sunt placeat. 
     Expedita, ullam. Eius tenetur libero temporibus error velit modi nostrum minus nihil doloribus eos.</p>
-    <a href="" class="btn">SEE MORE</a>
+
+<div class="fun-btn">
+    <a href="#artContent" class="btn">SEE MORE</a>
 </div>
 
+</div>
 </section>
 
+<!-----------------------art-content------------->
+<section id="artContent">
+<div class="art-intro">
+    <h1>ART KOMMER</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem libero, 
+    aut incidunt amet est consequuntur laudantium. Debitis cumque dolorem provident earum explicabo nam, 
+    ullam iste quod incidunt at tempore totam.</p>
+</div>
+
+<div class="art-col">
+    <img src="./assets/tokyo.png" alt="">
+    <h2>JAPAN RAILWAY</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Rem placeat reprehenderit, corporis temporibus architecto repellendus, animi minus ipsa quo recusandae quibusdam incidunt est, 
+    repellat officia magnam quaerat molestiae illo eligendi.</p>
+</div>
+<div class="art-col">
+    <img src="./assets/tokyo2.png" alt="">
+    <h2>TOKYO 2020</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Rem placeat reprehenderit, corporis temporibus architecto repellendus, animi minus ipsa quo recusandae quibusdam incidunt est, 
+    repellat officia magnam quaerat molestiae illo eligendi.</p>
+</div>
+<div class="art-col">
+    <img src="./assets/tokyo2.png" alt="">
+    <h2>ART 3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Rem placeat reprehenderit, corporis temporibus architecto repellendus, animi minus ipsa quo recusandae quibusdam incidunt est, 
+    repellat officia magnam quaerat molestiae illo eligendi.</p>
+</div>
+
+
+
+<!--------foooter-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium enim mollitia tenetur, adipisci, <br>perspiciatis sequi reiciendis, harum iste error quaerat eveniet cupiditate facere aperiam ullam quo. Esse velit vel suscipit.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+</section>
+
+
+
+
+
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
 
 </body>
 

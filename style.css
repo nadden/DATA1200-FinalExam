@@ -167,15 +167,13 @@ nav .fa{
     nav{
         display: block;
         align-items: center;
-        background-image: url(./assets/logo.png);
-        background-repeat: no-repeat;
-        background-size: relative;
         background-position: center;
         padding: 20px;
     }
     nav img{
-        display: none;
+        width: 150px;
     }
+
     
     .button{
         padding: 12px 15px;
@@ -323,17 +321,78 @@ nav .fa{
 
 
 /*------------fun------------*/
-.art-header{
+.art{
     background-image: url(./assets/art.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+
 }
-.art-header nav{
+.art nav{
     background-color: transparent;
 }
 
-.art-header img{
+.art nav img{
     display: none;
+}
+.art ul {
+    margin-top: 5%;
+    text-align: center;
+
+}
+.art-work{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.art-work h1{
+    font-size: 50px;
+
+}
+.art-work p{
+    margin: 5%;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.fun-btn a:hover{
+    border: 1px solid white;
+    background: white;
+    transition: 0.5s;
+    color: rgb(151, 11, 11);
+}
+
+/*-----------art-contant---------*/
+.art-intro{
+    margin: 5%;
+}
+
+.art-col{
+    background-color: white;
+    columns: 2;
+    margin: 5%;
+}
+.art-col img{
+    width: 80%;
+    margin-bottom: 5%;
+}
+@media(max-width: 700px){
+    .art-col{
+        columns: 1;
+        text-align: center;
+    }
 }
