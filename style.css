@@ -321,3 +321,19 @@ nav .fa{
     }
 }
 
+
+/*------------fun------------*/
+.art-header{
+    background-image: url(./assets/art.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.art-header nav{
+    background-color: transparent;
+}
+
+.art-header img{
+    display: none;
+}
