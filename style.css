@@ -5,6 +5,7 @@
 }
 
 
+
 nav{
     justify-content: space-between;
     align-items: center;
@@ -69,7 +70,7 @@ nav{
 }
 
 .welcome-info h1{
-    color: rgb(240, 204, 0);
+    color: darkcyan;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 45px;
@@ -110,7 +111,7 @@ nav{
 }
 .campus h3{
     font-size: 28px;
-    color: rgb(240, 204, 0);
+    color: darkcyan;
 }
 .campus p{
     font-size: 20px;
@@ -129,7 +130,7 @@ nav{
 }
 .campus-col a{
     text-decoration: none;
-    color: rgb(240, 204, 0);
+    color: darkcyan;
 }
 
 
@@ -155,8 +156,8 @@ nav{
 .icons .fa{
     color: white;
     margin: 0 13px;
-    cursor: pointer
-    padding 18px 0;
+    cursor: pointer;
+    padding: 18px 0;
 }
 .fa-heart-o{
     color: white;
@@ -237,12 +238,12 @@ nav .fa{
     margin-top: 0%;
 }
 .blog h1{
-    color: rgb(240, 204, 0);
+    color: darkcyan;
     font-size: 50px;
 }
 
 .blog h2{
-    color: rgb(240, 204, 0);
+    color: darkcyan;
     font-size: 40px;
 
 }
@@ -323,6 +324,7 @@ nav .fa{
 
 
 /*------------fun------------*/
+
 .art{
     background-image: url(./assets/art.png);
     min-height: 100vh;
@@ -424,5 +426,30 @@ nav .fa{
     }
     #artContent .fun-btn{
         text-align: center;
+    }
+}
+
+/*-------------accessibility-----------*/
+
+.accessibility{
+    margin: 5%;
+}
+
+.test-col{
+    margin: 5%;
+}
+
+.test-col img{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.test-col h2{
+    margin-bottom: 10px;
+    color: darkcyan;
+}
+@media(max-width: 700px){
+    .test-col img{
+        width: 100%;
     }
 }
