@@ -8,7 +8,7 @@
 nav{
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(240, 204, 0);
+    background-color: darkcyan;
     display: flex;
     padding: 5px 10%;
     margin: 0;
@@ -44,6 +44,7 @@ nav{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
 
 /*------------welcome-info----*/
 
@@ -81,8 +82,8 @@ nav{
 .button a{
     display: inline-block;
     text-decoration: none;
-    color: rgb(240, 204, 0);
-    border: 1px solid rgb(240, 204, 0);
+    color: darkcyan;
+    border: 1px solid darkcyan;
     padding: 12px 30px;
     background: transparent;
     position: relative;
@@ -92,8 +93,8 @@ nav{
 
 }
 .button a:hover{
-    border: 1px solid rgb(240, 204, 0);
-    background: rgb(240, 204, 0);
+    border: 1px solid darkcyan;
+    background: darkcyan;
     transition: 0.5s;
     color: white;
 }
@@ -163,6 +164,7 @@ nav{
 nav .fa{
     display: none;
 }
+
 @media(max-width: 700px){
     nav{
         display: block;
@@ -172,8 +174,8 @@ nav .fa{
     }
     nav img{
         width: 150px;
+        
     }
-
     
     .button{
         padding: 12px 15px;
@@ -377,14 +379,39 @@ nav .fa{
 }
 
 /*-----------art-contant---------*/
-.art-intro{
-    margin: 5%;
+#artContent{
+    background: black;
+} 
+
+#artContent .fun-btn{
+    margin-bottom: 0;
+    padding: 5%;
 }
 
+.art-intro{
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+.art-intro h1{
+    font-size: 40px;
+    color: #E71D73;
+}
+.art-col h2{
+    padding-bottom: 5%;
+    font-size: 35px;
+    color: #E71D73;
+}
+.art-col p{
+    line-height: 2.5;
+}
+
+
 .art-col{
-    background-color: white;
     columns: 2;
     margin: 5%;
+    color: white;
+    margin-bottom: 0;
 }
 .art-col img{
     width: 80%;
@@ -393,6 +420,9 @@ nav .fa{
 @media(max-width: 700px){
     .art-col{
         columns: 1;
+        text-align: center;
+    }
+    #artContent .fun-btn{
         text-align: center;
     }
 }
