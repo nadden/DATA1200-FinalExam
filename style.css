@@ -98,6 +98,10 @@ nav{
     color: white;
 }
 
+#Welcome .button{
+    margin: auto;
+}
+
 /*-----------welcome----*/
 .campus h1{
     text-align: center;
@@ -117,8 +121,8 @@ nav{
 .campus-col{
     margin: 5%;
     padding: 20px 12px;
-    columns: 2;
     text-align: center;
+    columns: 2;
 }
 .campus-col img{
     width: 100%;
@@ -172,7 +176,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 1200px){
     nav{
         display: block;
         align-items: center;
@@ -274,7 +278,7 @@ nav .fa{
 
 }
 
-@media(max-width: 700px){
+@media(max-width: 1200px){
     .blog-col{
         columns: 1;
     }
@@ -322,7 +326,7 @@ nav .fa{
     color: royalblue;
     font-weight: bold;
 }
-@media(max-width: 700px){
+@media(max-width: 1200px){
     .technology{
         columns: 1;
     }
@@ -447,7 +451,7 @@ nav .fa{
 }
 
 .test-col img{
-    width: 50%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
