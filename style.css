@@ -4,8 +4,24 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-
-
+p{
+    line-height: 2;
+    font-size: 20px;
+}
+h1{
+    font-size: 45px;
+    color: rgb(75, 75, 75);
+}
+h2{
+    font-size: 30px;
+    color: darkcyan;
+    font-weight: 400;
+}
+h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8%;
+}
 
 nav{
     justify-content: space-between;
@@ -71,7 +87,6 @@ nav{
     color: darkcyan;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 45px;
 }
 .welcome-info p{
     padding: 10px 0px
@@ -103,17 +118,16 @@ nav{
 }
 
 /*-----------welcome----*/
+.campus{
+    margin-top: 10%;
+}
 .campus h1{
     text-align: center;
-    font-size: 45px;
-    margin-top: 20px;
 }
 .campus h3{
-    font-size: 28px;
     color: darkcyan;
 }
 .campus p{
-    font-size: 20px;
     text-align: center;
     margin: 5%;
     margin-top: 0;
@@ -129,7 +143,7 @@ nav{
 }
 .campus-col a{
     text-decoration: none;
-    color: darkcyan;
+    color: gray;
 }
 
 
@@ -140,13 +154,14 @@ nav{
 .footer{
     text-align: center;
     padding: 20px;
-    background: rgb(71, 71, 71);
+    background: rgb(55, 54, 54);
 
 }
 
 .rader-item ul li{
     list-style: none;
     color: white;
+    margin-top: 8px;
 }
 .rader-item ul li a{
     text-decoration: none;
@@ -158,8 +173,8 @@ nav{
     margin-bottom: 10px;
     margin-top: 20px;
     color: white;
-    font-size: 20px;
 }
+
 .footer p{
     color: white;
 }
@@ -226,10 +241,11 @@ nav .fa{
         columns: 1;
     }
     .welcome img{
+        margin-top: 30px;
         padding-left: 0;
     }
     .campus{
-        margin: 0;
+        margin-top: 10%;
     }
     
     .campus-col{
@@ -247,19 +263,8 @@ nav .fa{
     margin: 5%;
     margin-top: 0%;
 }
-.blog h1{
-    color: darkcyan;
-    font-size: 50px;
-}
 
-.blog h2{
-    color: darkcyan;
-    font-size: 40px;
-
-}
 .blog p{
-    font-size: 20px;
-    line-height: 2rem;
     padding-top: 0%;
 }
 
@@ -294,18 +299,16 @@ nav .fa{
     columns: 2;
     column-gap: 10%;
 }
-.technology h2{
-    margin: 0px 0px 5px 0;
-}
-.technology h3{
-    margin: 30px 0px 5px 0;
-}
+
+
 .technology img{
     width: 100%;
 }
+.universal-design ul{
+    margin-bottom: 8%;
+}
 .universal-design a{
     color: royalblue;
-    font-weight: bold;
 
 }
 
@@ -324,7 +327,6 @@ nav .fa{
 }
 .tech-sustainability a{
     color: royalblue;
-    font-weight: bold;
 }
 @media(max-width: 1200px){
     .technology{
@@ -363,10 +365,6 @@ nav .fa{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.art-work h1{
-    font-size: 50px;
-
-}
 .art-work p{
     margin: 5%;
 }
@@ -398,7 +396,9 @@ nav .fa{
 #artContent .fun-btn{
     margin-bottom: 0;
     padding: 5%;
-
+}
+.art-work h1{
+    color: white;
 }
 
 .art-intro{
@@ -407,16 +407,11 @@ nav .fa{
     text-align: center;
 }
 .art-intro h1{
-    font-size: 40px;
     color: #E71D73;
 }
 .art-col h2{
     padding-bottom: 5%;
-    font-size: 35px;
     color: #E71D73;
-}
-.art-col p{
-    line-height: 2.5;
 }
 
 
@@ -451,7 +446,7 @@ nav .fa{
 }
 
 .test-col img{
-    width: 100%;
+    width: 50%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -461,6 +456,7 @@ nav .fa{
 }
 @media(max-width: 700px){
     .test-col img{
-        width: 100%;
-    }
+        width: 150%;
+        
+    } 
 }
