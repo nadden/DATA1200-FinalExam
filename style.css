@@ -15,6 +15,7 @@ h1{
 h2{
     font-size: 30px;
     color: darkcyan;
+    margin-bottom: 10px;
 }
 h3{
     font-size: 25px;
@@ -34,7 +35,6 @@ nav{
     flex: 1;
     text-align: right;
 }
-
 
 .nav-links ul li{
     list-style: none;
@@ -62,7 +62,7 @@ nav{
 }
 
 
-/*------------welcome-info----*/
+/*---------------------------------------welcome-info--------------*/
 
 .welcome-info{
     margin: 5%;
@@ -113,7 +113,7 @@ nav{
     margin: 5%;
 }
 
-/*-----------welcome----*/
+/*--------------------------------------welcome-----------------------------*/
 .campus{
     margin-top: 10%;
 }
@@ -142,7 +142,7 @@ nav{
 }
 
 
-/*------------footer-----*/
+/*--------------------------------------footer--------------------*/
 
 
 
@@ -250,17 +250,14 @@ nav .fa{
     
 }
 
-/*-----------blog--------*/
+/*-----------------------------------blog--------------------*/
 
 .intro{
     text-align: center;
+    margin-bottom: 5%;
 }
 .blog{
     margin: 5%;
-}
-
-.blog p{
-    padding-top: 0%;
 }
 
 .blog-col {
@@ -278,7 +275,30 @@ nav .fa{
     }
 }
 
-/*-------technology-------*/
+/*-------------------------------accessibility----------------*/
+
+.accessibility{
+    margin: 5%;
+}
+
+.test-col{
+    margin: 5%;
+}
+
+.test-col img{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 700px){
+    .test-col img{
+        width: 150%;
+        
+    } 
+}
+
+/*---------------------------technology-------------------*/
 .technology-society{
     margin: 5%;
 }
@@ -324,7 +344,7 @@ nav .fa{
 }
 
 
-/*------------fun------------*/
+/*---------------------------------fun------------------*/
 
 .art{
     background-image: url(./assets/art.png);
@@ -377,7 +397,7 @@ nav .fa{
     color: rgb(151, 11, 11);
 }
 
-/*-----------art-contant---------*/
+/*-------------------------art-contant------------------*/
 #artContent{
     background: black;
 } 
@@ -422,30 +442,4 @@ nav .fa{
     #artContent .fun-btn{
         text-align: center;
     }
-}
-
-/*-------------accessibility-----------*/
-
-.accessibility{
-    margin: 5%;
-}
-
-.test-col{
-    margin: 5%;
-}
-
-.test-col img{
-    width: 50%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.test-col h2{
-    margin-bottom: 10px;
-    color: darkcyan;
-}
-@media(max-width: 700px){
-    .test-col img{
-        width: 150%;
-        
-    } 
 }
