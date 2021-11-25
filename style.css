@@ -4,22 +4,22 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-p{
-    line-height: 2;
-    font-size: 20px;
-}
 h1{
-    font-size: 45px;
+    font-size: 35px;
     color: rgb(75, 75, 75);
 }
 h2{
-    font-size: 30px;
+    font-size: 25px;
     color: darkcyan;
     margin-bottom: 10px;
 }
 h3{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 8%;
+}
+p{
+    line-height: 2;
+    font-size: 18px;
 }
 
 /*-----------------*/
@@ -49,7 +49,7 @@ nav{
     margin: 0px 12px;
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     border-bottom: 1px solid transparent;
 }
 
@@ -295,6 +295,7 @@ nav .fa{
 }
 
 /*---------------------------technology-------------------*/
+
 .technology-society{
     margin: 5%;
 }
@@ -310,11 +311,14 @@ nav .fa{
     width: 100%;
 }
 .universal-design ul{
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 .universal-design a{
     color: royalblue;
 
+}
+.universal-design p{
+    padding-bottom: 10%;
 }
 
 .universal-design ul li{
@@ -336,6 +340,9 @@ nav .fa{
 @media(max-width: 1200px){
     .technology{
         columns: 1;
+    }
+    .universal-design p{
+        padding-bottom: 10px;
     }
 }
 
