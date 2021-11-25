@@ -22,43 +22,39 @@ h3{
     margin-top: 8%;
 }
 
+/*-----------------*/
+
 nav{
     justify-content: space-between;
     align-items: center;
     background-color: darkcyan;
     display: flex;
     padding: 5px 10%;
-    margin: 0;
 }
 
-.nav-links{
-    flex: 1;
-    text-align: right;
-}
-
-.nav-links ul li{
+.menu-bar ul{
     list-style: none;
-    display: inline-block;
-    padding: 8px 35px;
-    position: relative;
- 
+    margin: 0;
+    padding: 0;
 }
-.nav-links ul li a{
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 16px;
+.menu-bar li{
+    display: inline;
+    border-bottom: 1px solid transparent;
+    float: left;
+
 }
-.nav-links ul li::after{
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: white;
+.menu-bar a{
     display: block;
-    margin: auto;
-    transition: 0.5s;
+    padding: 5px;
+    margin: 0px 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
 }
-.nav-links ul li:hover::after{
-    width: 100%;
+
+.menu-bar li a:hover{
+    border-color: white;
 }
 
 
@@ -106,7 +102,7 @@ nav{
 }
 
 #Welcome .button{
-    margin-top: 20px;
+    margin-top: 8%;
     margin-left: 0;
 }
 .button{
@@ -203,10 +199,10 @@ nav .fa{
         text-align: center;
 
     }
-    .nav-links ul li{
+    .menu-bar ul li{
         display: block;
     }
-    .nav-links{
+    .menu-bar{
         position: fixed;
         background: gray;
         height: 100vh;
@@ -226,7 +222,7 @@ nav .fa{
         margin: 5px;
         padding-top: 0;
     }
-    .nav-links ul{
+    .menu-bar ul{
         padding: 30px;
 
     }
@@ -352,19 +348,22 @@ nav .fa{
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-
 }
 .art nav{
     background-color: transparent;
+    display: block;
 }
 
 .art nav img{
     display: none;
 }
+.art .menu-bar{
+    text-align: center;
+}
+
 .art ul {
     margin-top: 5%;
-    text-align: center;
-
+    display: inline-block;
 }
 .art-work{
     text-align: center;
